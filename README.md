@@ -1,16 +1,10 @@
-# employee_directory
+Employee Directory — a Flutter app that lists employees from dummyjson.com/users, with search by name, filter by gender, sort A–Z/Z–A, favorites (saved on device), and a details screen with an email button.
 
-Task for Cosmica Gps
 
-## Getting Started
+Stack: Flutter · Provider (state management) · http (API calls) · shared_preferences (favorites persistence) · url_launcher (email)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Structure: models → services → providers → screens/widgets — a simple layered setup, one EmployeeProvider holding all app state.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+That's the gist — want me to shrink this further into a one-paragraph blurb for the email you're sending, or is this the right length?
